@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   # shorten urls
   devise_scope :user do
     get 'login', to: 'devise/sessions#new'
-    get 'sign_up', to: 'devise/registrations#new'
+    get 'signup', to: 'devise/registrations#new'
   end
 
 end
